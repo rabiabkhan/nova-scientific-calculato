@@ -1,1 +1,12 @@
 
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nova Scientific Calculator</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="app"><header><div><p class="eyebrow">SMART CALCULATOR</p><h1>Nova <span>Calculator</span></h1><p class="sub">A simple space for big calculations.</p></div><button id="theme" class="icon-btn" aria-label="Toggle theme">☼</button></header>
+<section class="calculator"><div class="topline"><span>SCIENTIFIC</span><button id="angle">DEG</button></div><div class="screen"><div id="expression" class="expression">0</div><div id="result" class="result">Ready</div></div>
+<div class="keys">
+<button class="function" data-insert="sin(">sin</button><button class="function" data-insert="cos(">cos</button><button class="function" data-insert="tan(">tan</button><button class="function" data-insert="sqrt(">√</button><button class="function" data-insert="log(">log</button>
+<button class="soft" data-action="clear">AC</button><button class="soft" data-action="back">⌫</button><button class="soft" data-insert="(">(</button><button class="soft" data-insert=")">)</button><button class="operator" data-insert="/">÷</button>
+<button data-insert="7">7</button><button data-insert="8">8</button><button data-insert="9">9</button><button class="operator" data-insert="*">×</button><button class="function" data-insert="^">xʸ</button>
+<button data-insert="4">4</button><button data-insert="5">5</button><button data-insert="6">6</button><button class="operator" data-insert="-">−</button><button class="function" data-insert="pi">π</button>
+<button data-insert="1">1</button><button data-insert="2">2</button><button data-insert="3">3</button><button class="operator" data-insert="+">+</button><button class="function" data-insert="e">e</button>
+<button class="soft" data-insert="0">0</button><button data-insert=".">.</button><button class="function" data-insert="ln(">ln</button><button class="equals" data-action="equals">=</button><button class="function" data-insert="abs(">abs</button>
+</div></section><section class="history"><div class="history-head"><div><h2>Calculation history</h2><p>Your recent results appear here.</p></div><button id="clearHistory">Clear</button></div><ul id="historyList"><li class="empty">No calculations yet.</li></ul></section><footer>Calculations are processed by a C++ backend.</footer></main><script src="/script.js"></script></body></html>
